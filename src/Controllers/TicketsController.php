@@ -82,6 +82,7 @@ class TicketsController extends Controller
 
         $this->renderTicketTable($collection);
 
+        Carbon::setLocale(config('app.locale'));
         $collection->editColumn('updated_at', '{!! \Carbon\Carbon::createFromFormat("Y-m-d H:i:s", $updated_at)->diffForHumans() !!}');
 
         // method rawColumns was introduced in laravel-datatables 7, which is only compatible with >L5.4
