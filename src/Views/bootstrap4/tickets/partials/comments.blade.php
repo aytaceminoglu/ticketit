@@ -1,3 +1,4 @@
+@php(Carbon\Carbon::setLocale(config('app.locale')))
 @if(!$comments->isEmpty())
     @foreach($comments as $comment)
         <div class="card mb-3 {!! $comment->user->tickets_role ? "border-info" : "" !!}">
