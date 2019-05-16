@@ -4,7 +4,7 @@
     @include('ticketit::shared.header')
 
     <div class="container px-0">
-        <div class="card mb-3">
+        <div class="card mb-3 mt-2 mt-md-0 mt-lg-0">
             <div class="card-body">
                 @include('ticketit::shared.nav')
             </div>
