@@ -8,7 +8,7 @@
 {!! link_to_route($setting->grab('main_route').'.create', trans('ticketit::lang.btn-create-new-ticket'), null, ['class' => 'btn btn-primary']) !!}
 @stop
 
-@section('ticketit_content_parent_class', 'pl-0 pr-0')
+@section('ticketit_content_parent_class')
 
 @section('ticketit_content')
     <div id="message"></div>
