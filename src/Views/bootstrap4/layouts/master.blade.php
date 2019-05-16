@@ -1,9 +1,9 @@
 @extends($master)
 
-@section('content')
+@section('contentd938986cce0df4f7a7861b6e2tickets')
     @include('ticketit::shared.header')
 
-    <div class="container">
+    <div class="container px-0">
         <div class="card mb-3">
             <div class="card-body">
                 @include('ticketit::shared.nav')
@@ -27,4 +27,4 @@
         @endif
         @yield('ticketit_extra_content')
     </div>
-@stop
+@endsection
