@@ -214,7 +214,7 @@ class SettingsTableSeeder extends Seeder
              * If Font-awesome css is included outside ticketit, this should be set to 'no'
              * Default: 'yes'
              */
-            'include_font_awesome' => 'yes',
+            'include_font_awesome' => 'no',
 
             /*
              * Which language should summernote js texteditor use
@@ -235,7 +235,7 @@ class SettingsTableSeeder extends Seeder
              * Default: 'yes'
              */
 
-            'editor_html_highlighter' => 'yes',
+            'editor_html_highlighter' => 'no',
 
             /*
              * Theme for sytax highlighter
@@ -252,7 +252,7 @@ class SettingsTableSeeder extends Seeder
              *
              * This setting stores the path to the json config file, relative to project route
              */
-            'summernote_options_json_file' => 'vendor/kordy/ticketit/src/JSON/summernote_init.json',
+            'summernote_options_json_file' => 'vendor/aytaceminoglu/ticketit/src/JSON/summernote_init.json',
 
             /*
              * Set which html tags are allowed
@@ -276,7 +276,7 @@ class SettingsTableSeeder extends Seeder
              *
              * Default: __DIR__.'/routes.php'
              */
-            'routes' => base_path('vendor/kordy/ticketit/src').'/routes.php',
+            'routes' => base_path('vendor/aytaceminoglu/ticketit/src').'/routes.php',
 
         ];
     }
