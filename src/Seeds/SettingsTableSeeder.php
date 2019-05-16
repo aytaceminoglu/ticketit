@@ -159,13 +159,13 @@ class SettingsTableSeeder extends Seeder
              * Default is send notification: 'yes'
              * Do not send notification: 'no'
              */
-            'status_notification' => 'yes',
+            'status_notification' => 'no',
             /*
              * Comment notification: Send notification when new comment is posted
              * Default is send notification: 'yes'
              * Do not send notification: 'no'
              */
-            'comment_notification' => 'yes',
+            'comment_notification' => 'no',
             /*
              * Use Queue method when sending emails (Mail::queue instead of Mail::send). Note that Mail::queue needs to be
              * configured first http://laravel.com/docs/5.1/queues
@@ -178,7 +178,7 @@ class SettingsTableSeeder extends Seeder
              * Default: 'yes'
              * not to notify agent: 'no'
              */
-            'assigned_notification' => 'yes',
+            'assigned_notification' => 'no',
             /*
              * Agent restrict: Restrict agents access to only their assigned tickets
              * Default: 'no'
